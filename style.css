@@ -6,7 +6,6 @@
 .nav {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: #B9D9EB;
     color: black;
     height: auto;
 }
@@ -20,7 +19,7 @@
 .social ul {
     list-style: none;
     margin-left: 300px;
-    margin-top: 30px;
+    margin-top: 60px;
     margin-bottom: 30px;
     display: flex;
 }
@@ -622,4 +621,60 @@
 
 .content4 {
     font-size: 25px;
+}
+
+.foot {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #89CFF0;
+    padding-bottom: 40px;
+}
+
+.logo100 {
+    padding-left: 100px;
+    width: 580px;
+    padding-top: 80px;
+}
+
+.logo100 h1 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.links {
+    padding-top: 90px;
+    width: 190px;
+    padding-left: 50px;
+}
+
+.links h1 {
+    padding-bottom: 15px;
+}
+
+.links ul {
+    list-style: none;
+    text-align: right;
+}
+
+.contact {
+    padding-top: 90px;
+}
+
+.contact h1 {
+    padding-bottom: 15px;
+}
+
+.copy {
+    padding-left: 100px;
+    background-color: #89CFF0;
+    padding-right: 100px;
+}
+
+.border {
+    border-top: 1px solid black;
+}
+
+.copy p {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
